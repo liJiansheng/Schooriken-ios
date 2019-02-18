@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310804071959CA8700158315 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 310804061959CA8700158315 /* NSString+MD5.m */; };
+		3117378C1963052C00AE8923 /* glyphicons_049_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3117378B1963052C00AE8923 /* glyphicons_049_star.png */; };
+		3117378E1963069C00AE8923 /* glyphicons_others.png in Resources */ = {isa = PBXBuildFile; fileRef = 3117378D1963069B00AE8923 /* glyphicons_others.png */; };
+		3128A0471969C20F00D3AA5D /* schooriken_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3128A0461969C20F00D3AA5D /* schooriken_icon.png */; };
+		313DFD2D195D33500074D136 /* SchoorikenCompleteButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 313DFD2C195D33500074D136 /* SchoorikenCompleteButton.m */; };
+		3162A6E6196AF476002B16F9 /* schooriken_icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 3162A6DF196AF476002B16F9 /* schooriken_icon29.png */; };
+		3162A6E7196AF476002B16F9 /* schooriken_icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 3162A6E0196AF476002B16F9 /* schooriken_icon40.png */; };
+		3162A6E8196AF476002B16F9 /* schooriken_icon50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3162A6E1196AF476002B16F9 /* schooriken_icon50.png */; };
+		3162A6E9196AF476002B16F9 /* schooriken_icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 3162A6E2196AF476002B16F9 /* schooriken_icon57.png */; };
+		3162A6EA196AF476002B16F9 /* schooriken_icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 3162A6E3196AF476002B16F9 /* schooriken_icon58.png */; };
+		3162A6EB196AF476002B16F9 /* schooriken_icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 3162A6E4196AF476002B16F9 /* schooriken_icon80.png */; };
+		3162A6EC196AF476002B16F9 /* schooriken_icon100.png in Resources */ = {isa = PBXBuildFile; fileRef = 3162A6E5196AF476002B16F9 /* schooriken_icon100.png */; };
+		3162A6ED196AF91C002B16F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3128A0481969C42800D3AA5D /* Images.xcassets */; };
+		C214AE2A1923BC4700A48403 /* loginscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C214AE261923BC4700A48403 /* loginscreen.png */; };
+		C214AE2B1923BC4700A48403 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C214AE271923BC4700A48403 /* logo.png */; };
+		C214AE2C1923BC4700A48403 /* plussign.png in Resources */ = {isa = PBXBuildFile; fileRef = C214AE281923BC4700A48403 /* plussign.png */; };
+		C214AE2D1923BC4700A48403 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = C214AE291923BC4700A48403 /* refresh.png */; };
+		C25FF3E6193CD3A100FF638C /* glyphicons_logout.png in Resources */ = {isa = PBXBuildFile; fileRef = C25FF3E5193CD3A100FF638C /* glyphicons_logout.png */; };
+		C25FF3E9193CD95C00FF638C /* glyphicons_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = C25FF3E7193CD95C00FF638C /* glyphicons_plus.png */; };
+		C25FF3EA193CD95C00FF638C /* glyphicons_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = C25FF3E8193CD95C00FF638C /* glyphicons_refresh.png */; };
+		C2A07F141923C17400179FBE /* AnnouncementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A07EF01923C17400179FBE /* AnnouncementCell.xib */; };
+		C2A07F151923C17400179FBE /* AssignmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A07EF11923C17400179FBE /* AssignmentCell.xib */; };
+		C2A07F161923C17400179FBE /* JoinedEventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A07EF21923C17400179FBE /* JoinedEventCell.xib */; };
+		C2A07F171923C17400179FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A07EF31923C17400179FBE /* Main.storyboard */; };
+		C2A07F181923C17400179FBE /* SchoorikenAddGroupTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07EF51923C17400179FBE /* SchoorikenAddGroupTableController.m */; };
+		C2A07F191923C17400179FBE /* SchoorikenAddGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07EF71923C17400179FBE /* SchoorikenAddGroupViewController.m */; };
+		C2A07F1A1923C17400179FBE /* SchoorikenAnnouncementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07EF91923C17400179FBE /* SchoorikenAnnouncementCell.m */; };
+		C2A07F1B1923C17400179FBE /* SchoorikenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07EFB1923C17400179FBE /* SchoorikenAppDelegate.m */; };
+		C2A07F1C1923C17400179FBE /* SchoorikenAssignmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07EFD1923C17400179FBE /* SchoorikenAssignmentCell.m */; };
+		C2A07F1D1923C17400179FBE /* SchoorikenDashboardNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07F001923C17400179FBE /* SchoorikenDashboardNavigationItem.m */; };
+		C2A07F1E1923C17400179FBE /* SchoorikenDashboardTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07F021923C17400179FBE /* SchoorikenDashboardTableView.m */; };
+		C2A07F1F1923C17400179FBE /* SchoorikenDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07F041923C17400179FBE /* SchoorikenDashboardViewController.m */; };
+		C2A07F201923C17400179FBE /* SchoorikenJoinButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07F061923C17400179FBE /* SchoorikenJoinButton.m */; };
+		C2A07F211923C17400179FBE /* SchoorikenJoinedEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07F081923C17400179FBE /* SchoorikenJoinedEventCell.m */; };
+		C2A07F221923C17400179FBE /* SchoorikenLoginPasswordField.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07F0A1923C17400179FBE /* SchoorikenLoginPasswordField.m */; };
+		C2A07F241923C17400179FBE /* SchoorikenLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07F0E1923C17400179FBE /* SchoorikenLoginViewController.m */; };
+		C2A07F251923C17400179FBE /* SchoorikenUnjoinedEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07F101923C17400179FBE /* SchoorikenUnjoinedEventCell.m */; };
+		C2A07F261923C17400179FBE /* SchoorikenUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07F121923C17400179FBE /* SchoorikenUser.m */; };
+		C2A07F271923C17400179FBE /* UnjoinedEventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2A07F131923C17400179FBE /* UnjoinedEventCell.xib */; };
+		C2A07F2D1923C29900179FBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A07F2C1923C29900179FBE /* main.m */; };
+		C2B064CF1917611100BC2AA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B064CE1917611100BC2AA3 /* Foundation.framework */; };
+		C2B064D11917611100BC2AA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B064D01917611100BC2AA3 /* CoreGraphics.framework */; };
+		C2B064D31917611100BC2AA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B064D21917611100BC2AA3 /* UIKit.framework */; };
+		C2B064E81917611100BC2AA3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B064E71917611100BC2AA3 /* XCTest.framework */; };
+		C2B064E91917611100BC2AA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B064CE1917611100BC2AA3 /* Foundation.framework */; };
+		C2B064EA1917611100BC2AA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B064D21917611100BC2AA3 /* UIKit.framework */; };
+		C2B064F21917611100BC2AA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2B064F01917611100BC2AA3 /* InfoPlist.strings */; };
+		C2B064F41917611100BC2AA3 /* SchoorikenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B064F31917611100BC2AA3 /* SchoorikenTests.m */; };
+		C2E892C51939BB190086C5D0 /* glyphicons_soccer_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E892C41939BB190086C5D0 /* glyphicons_soccer_ball.png */; };
+		C2E892C71939C4050086C5D0 /* glyphicons_book.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E892C61939C4050086C5D0 /* glyphicons_book.png */; };
+		C2E892C91939C49A0086C5D0 /* glyphicons_group.png in Resources */ = {isa = PBXBuildFile; fileRef = C2E892C81939C49A0086C5D0 /* glyphicons_group.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2B064EB1917611100BC2AA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2B064C31917611100BC2AA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B064CA1917611100BC2AA3;
+			remoteInfo = Schooriken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		310804051959CA0E00158315 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		310804061959CA8700158315 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		3117378B1963052C00AE8923 /* glyphicons_049_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_049_star.png; sourceTree = "<group>"; };
+		3117378D1963069B00AE8923 /* glyphicons_others.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_others.png; sourceTree = "<group>"; };
+		3128A0461969C20F00D3AA5D /* schooriken_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schooriken_icon.png; sourceTree = SOURCE_ROOT; };
+		3128A0481969C42800D3AA5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		313DFD2B195D33500074D136 /* SchoorikenCompleteButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenCompleteButton.h; sourceTree = "<group>"; };
+		313DFD2C195D33500074D136 /* SchoorikenCompleteButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenCompleteButton.m; sourceTree = "<group>"; };
+		3162A6DF196AF476002B16F9 /* schooriken_icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schooriken_icon29.png; sourceTree = "<group>"; };
+		3162A6E0196AF476002B16F9 /* schooriken_icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schooriken_icon40.png; sourceTree = "<group>"; };
+		3162A6E1196AF476002B16F9 /* schooriken_icon50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schooriken_icon50.png; sourceTree = "<group>"; };
+		3162A6E2196AF476002B16F9 /* schooriken_icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schooriken_icon57.png; sourceTree = "<group>"; };
+		3162A6E3196AF476002B16F9 /* schooriken_icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schooriken_icon58.png; sourceTree = "<group>"; };
+		3162A6E4196AF476002B16F9 /* schooriken_icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schooriken_icon80.png; sourceTree = "<group>"; };
+		3162A6E5196AF476002B16F9 /* schooriken_icon100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schooriken_icon100.png; sourceTree = "<group>"; };
+		C214AE261923BC4700A48403 /* loginscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginscreen.png; path = Schooriken/loginscreen.png; sourceTree = "<group>"; };
+		C214AE271923BC4700A48403 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Schooriken/logo.png; sourceTree = "<group>"; };
+		C214AE281923BC4700A48403 /* plussign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plussign.png; path = Schooriken/plussign.png; sourceTree = "<group>"; };
+		C214AE291923BC4700A48403 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh.png; path = Schooriken/refresh.png; sourceTree = "<group>"; };
+		C25FF3E5193CD3A100FF638C /* glyphicons_logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_logout.png; sourceTree = "<group>"; };
+		C25FF3E7193CD95C00FF638C /* glyphicons_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_plus.png; sourceTree = "<group>"; };
+		C25FF3E8193CD95C00FF638C /* glyphicons_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_refresh.png; sourceTree = "<group>"; };
+		C2A07EF01923C17400179FBE /* AnnouncementCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnouncementCell.xib; sourceTree = "<group>"; };
+		C2A07EF11923C17400179FBE /* AssignmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssignmentCell.xib; sourceTree = "<group>"; };
+		C2A07EF21923C17400179FBE /* JoinedEventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JoinedEventCell.xib; sourceTree = "<group>"; };
+		C2A07EF31923C17400179FBE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C2A07EF41923C17400179FBE /* SchoorikenAddGroupTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenAddGroupTableController.h; sourceTree = "<group>"; };
+		C2A07EF51923C17400179FBE /* SchoorikenAddGroupTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenAddGroupTableController.m; sourceTree = "<group>"; };
+		C2A07EF61923C17400179FBE /* SchoorikenAddGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenAddGroupViewController.h; sourceTree = "<group>"; };
+		C2A07EF71923C17400179FBE /* SchoorikenAddGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenAddGroupViewController.m; sourceTree = "<group>"; };
+		C2A07EF81923C17400179FBE /* SchoorikenAnnouncementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenAnnouncementCell.h; sourceTree = "<group>"; };
+		C2A07EF91923C17400179FBE /* SchoorikenAnnouncementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenAnnouncementCell.m; sourceTree = "<group>"; };
+		C2A07EFA1923C17400179FBE /* SchoorikenAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenAppDelegate.h; sourceTree = "<group>"; };
+		C2A07EFB1923C17400179FBE /* SchoorikenAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenAppDelegate.m; sourceTree = "<group>"; };
+		C2A07EFC1923C17400179FBE /* SchoorikenAssignmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenAssignmentCell.h; sourceTree = "<group>"; };
+		C2A07EFD1923C17400179FBE /* SchoorikenAssignmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenAssignmentCell.m; sourceTree = "<group>"; };
+		C2A07EFE1923C17400179FBE /* SchoorikenConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenConstants.h; sourceTree = "<group>"; };
+		C2A07EFF1923C17400179FBE /* SchoorikenDashboardNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenDashboardNavigationItem.h; sourceTree = "<group>"; };
+		C2A07F001923C17400179FBE /* SchoorikenDashboardNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenDashboardNavigationItem.m; sourceTree = "<group>"; };
+		C2A07F011923C17400179FBE /* SchoorikenDashboardTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenDashboardTableView.h; sourceTree = "<group>"; };
+		C2A07F021923C17400179FBE /* SchoorikenDashboardTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenDashboardTableView.m; sourceTree = "<group>"; };
+		C2A07F031923C17400179FBE /* SchoorikenDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenDashboardViewController.h; sourceTree = "<group>"; };
+		C2A07F041923C17400179FBE /* SchoorikenDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenDashboardViewController.m; sourceTree = "<group>"; };
+		C2A07F051923C17400179FBE /* SchoorikenJoinButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenJoinButton.h; sourceTree = "<group>"; };
+		C2A07F061923C17400179FBE /* SchoorikenJoinButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenJoinButton.m; sourceTree = "<group>"; };
+		C2A07F071923C17400179FBE /* SchoorikenJoinedEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenJoinedEventCell.h; sourceTree = "<group>"; };
+		C2A07F081923C17400179FBE /* SchoorikenJoinedEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenJoinedEventCell.m; sourceTree = "<group>"; };
+		C2A07F091923C17400179FBE /* SchoorikenLoginPasswordField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenLoginPasswordField.h; sourceTree = "<group>"; };
+		C2A07F0A1923C17400179FBE /* SchoorikenLoginPasswordField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenLoginPasswordField.m; sourceTree = "<group>"; };
+		C2A07F0D1923C17400179FBE /* SchoorikenLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenLoginViewController.h; sourceTree = "<group>"; };
+		C2A07F0E1923C17400179FBE /* SchoorikenLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenLoginViewController.m; sourceTree = "<group>"; };
+		C2A07F0F1923C17400179FBE /* SchoorikenUnjoinedEventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenUnjoinedEventCell.h; sourceTree = "<group>"; };
+		C2A07F101923C17400179FBE /* SchoorikenUnjoinedEventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenUnjoinedEventCell.m; sourceTree = "<group>"; };
+		C2A07F111923C17400179FBE /* SchoorikenUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoorikenUser.h; sourceTree = "<group>"; };
+		C2A07F121923C17400179FBE /* SchoorikenUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoorikenUser.m; sourceTree = "<group>"; };
+		C2A07F131923C17400179FBE /* UnjoinedEventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnjoinedEventCell.xib; sourceTree = "<group>"; };
+		C2A07F2C1923C29900179FBE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2B064CB1917611100BC2AA3 /* Schooriken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schooriken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B064CE1917611100BC2AA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2B064D01917611100BC2AA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2B064D21917611100BC2AA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2B064E61917611100BC2AA3 /* SchoorikenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoorikenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B064E71917611100BC2AA3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2B064EF1917611100BC2AA3 /* SchoorikenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SchoorikenTests-Info.plist"; sourceTree = "<group>"; };
+		C2B064F11917611100BC2AA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2B064F31917611100BC2AA3 /* SchoorikenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoorikenTests.m; sourceTree = "<group>"; };
+		C2E892C41939BB190086C5D0 /* glyphicons_soccer_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_soccer_ball.png; sourceTree = "<group>"; };
+		C2E892C61939C4050086C5D0 /* glyphicons_book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_book.png; sourceTree = "<group>"; };
+		C2E892C81939C49A0086C5D0 /* glyphicons_group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glyphicons_group.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2B064C81917611100BC2AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B064D11917611100BC2AA3 /* CoreGraphics.framework in Frameworks */,
+				C2B064D31917611100BC2AA3 /* UIKit.framework in Frameworks */,
+				C2B064CF1917611100BC2AA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B064E31917611100BC2AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B064E81917611100BC2AA3 /* XCTest.framework in Frameworks */,
+				C2B064EA1917611100BC2AA3 /* UIKit.framework in Frameworks */,
+				C2B064E91917611100BC2AA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2A078E31923C06700179FBE /* Schooriken */ = {
+			isa = PBXGroup;
+			children = (
+				C2E892C41939BB190086C5D0 /* glyphicons_soccer_ball.png */,
+				C2A07EF01923C17400179FBE /* AnnouncementCell.xib */,
+				C2A07EF11923C17400179FBE /* AssignmentCell.xib */,
+				C2A07EF21923C17400179FBE /* JoinedEventCell.xib */,
+				C2A07EF31923C17400179FBE /* Main.storyboard */,
+				3162A6DF196AF476002B16F9 /* schooriken_icon29.png */,
+				3162A6E0196AF476002B16F9 /* schooriken_icon40.png */,
+				3162A6E1196AF476002B16F9 /* schooriken_icon50.png */,
+				3162A6E2196AF476002B16F9 /* schooriken_icon57.png */,
+				3162A6E3196AF476002B16F9 /* schooriken_icon58.png */,
+				3162A6E4196AF476002B16F9 /* schooriken_icon80.png */,
+				3162A6E5196AF476002B16F9 /* schooriken_icon100.png */,
+				3117378D1963069B00AE8923 /* glyphicons_others.png */,
+				3117378B1963052C00AE8923 /* glyphicons_049_star.png */,
+				C2E892C81939C49A0086C5D0 /* glyphicons_group.png */,
+				C2E892C61939C4050086C5D0 /* glyphicons_book.png */,
+				C2A07EF41923C17400179FBE /* SchoorikenAddGroupTableController.h */,
+				C2A07EF51923C17400179FBE /* SchoorikenAddGroupTableController.m */,
+				C2A07EF61923C17400179FBE /* SchoorikenAddGroupViewController.h */,
+				C2A07EF71923C17400179FBE /* SchoorikenAddGroupViewController.m */,
+				C2A07EF81923C17400179FBE /* SchoorikenAnnouncementCell.h */,
+				C2A07EF91923C17400179FBE /* SchoorikenAnnouncementCell.m */,
+				C2A07EFA1923C17400179FBE /* SchoorikenAppDelegate.h */,
+				C2A07EFB1923C17400179FBE /* SchoorikenAppDelegate.m */,
+				C2A07EFC1923C17400179FBE /* SchoorikenAssignmentCell.h */,
+				C2A07EFD1923C17400179FBE /* SchoorikenAssignmentCell.m */,
+				C2A07EFE1923C17400179FBE /* SchoorikenConstants.h */,
+				C2A07EFF1923C17400179FBE /* SchoorikenDashboardNavigationItem.h */,
+				313DFD2B195D33500074D136 /* SchoorikenCompleteButton.h */,
+				313DFD2C195D33500074D136 /* SchoorikenCompleteButton.m */,
+				C2A07F001923C17400179FBE /* SchoorikenDashboardNavigationItem.m */,
+				C2A07F011923C17400179FBE /* SchoorikenDashboardTableView.h */,
+				C2A07F021923C17400179FBE /* SchoorikenDashboardTableView.m */,
+				C2A07F031923C17400179FBE /* SchoorikenDashboardViewController.h */,
+				C2A07F041923C17400179FBE /* SchoorikenDashboardViewController.m */,
+				C25FF3E5193CD3A100FF638C /* glyphicons_logout.png */,
+				C2A07F051923C17400179FBE /* SchoorikenJoinButton.h */,
+				C2A07F061923C17400179FBE /* SchoorikenJoinButton.m */,
+				C2A07F071923C17400179FBE /* SchoorikenJoinedEventCell.h */,
+				C2A07F081923C17400179FBE /* SchoorikenJoinedEventCell.m */,
+				C2A07F091923C17400179FBE /* SchoorikenLoginPasswordField.h */,
+				C2A07F0A1923C17400179FBE /* SchoorikenLoginPasswordField.m */,
+				C2A07F0D1923C17400179FBE /* SchoorikenLoginViewController.h */,
+				C2A07F0E1923C17400179FBE /* SchoorikenLoginViewController.m */,
+				3128A0481969C42800D3AA5D /* Images.xcassets */,
+				310804051959CA0E00158315 /* NSString+MD5.h */,
+				310804061959CA8700158315 /* NSString+MD5.m */,
+				C25FF3E7193CD95C00FF638C /* glyphicons_plus.png */,
+				C25FF3E8193CD95C00FF638C /* glyphicons_refresh.png */,
+				C2A07F0F1923C17400179FBE /* SchoorikenUnjoinedEventCell.h */,
+				C2A07F101923C17400179FBE /* SchoorikenUnjoinedEventCell.m */,
+				C2A07F111923C17400179FBE /* SchoorikenUser.h */,
+				C2A07F121923C17400179FBE /* SchoorikenUser.m */,
+				C2A07F131923C17400179FBE /* UnjoinedEventCell.xib */,
+			);
+			name = Schooriken;
+			sourceTree = "<group>";
+		};
+		C2B064C21917611100BC2AA3 = {
+			isa = PBXGroup;
+			children = (
+				C2A07F2C1923C29900179FBE /* main.m */,
+				C2A078E31923C06700179FBE /* Schooriken */,
+				C214AE261923BC4700A48403 /* loginscreen.png */,
+				C214AE271923BC4700A48403 /* logo.png */,
+				C214AE281923BC4700A48403 /* plussign.png */,
+				C214AE291923BC4700A48403 /* refresh.png */,
+				C2B064ED1917611100BC2AA3 /* SchoorikenTests */,
+				C2B064CD1917611100BC2AA3 /* Frameworks */,
+				C2B064CC1917611100BC2AA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2B064CC1917611100BC2AA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2B064CB1917611100BC2AA3 /* Schooriken.app */,
+				C2B064E61917611100BC2AA3 /* SchoorikenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2B064CD1917611100BC2AA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2B064CE1917611100BC2AA3 /* Foundation.framework */,
+				C2B064D01917611100BC2AA3 /* CoreGraphics.framework */,
+				C2B064D21917611100BC2AA3 /* UIKit.framework */,
+				C2B064E71917611100BC2AA3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2B064ED1917611100BC2AA3 /* SchoorikenTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2B064F31917611100BC2AA3 /* SchoorikenTests.m */,
+				C2B064EE1917611100BC2AA3 /* Supporting Files */,
+			);
+			path = SchoorikenTests;
+			sourceTree = "<group>";
+		};
+		C2B064EE1917611100BC2AA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2B064EF1917611100BC2AA3 /* SchoorikenTests-Info.plist */,
+				3128A0461969C20F00D3AA5D /* schooriken_icon.png */,
+				C2B064F01917611100BC2AA3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2B064CA1917611100BC2AA3 /* Schooriken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B064F71917611100BC2AA3 /* Build configuration list for PBXNativeTarget "Schooriken" */;
+			buildPhases = (
+				C2B064C71917611100BC2AA3 /* Sources */,
+				C2B064C81917611100BC2AA3 /* Frameworks */,
+				C2B064C91917611100BC2AA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schooriken;
+			productName = Schooriken;
+			productReference = C2B064CB1917611100BC2AA3 /* Schooriken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2B064E51917611100BC2AA3 /* SchoorikenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B064FA1917611100BC2AA3 /* Build configuration list for PBXNativeTarget "SchoorikenTests" */;
+			buildPhases = (
+				C2B064E21917611100BC2AA3 /* Sources */,
+				C2B064E31917611100BC2AA3 /* Frameworks */,
+				C2B064E41917611100BC2AA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2B064EC1917611100BC2AA3 /* PBXTargetDependency */,
+			);
+			name = SchoorikenTests;
+			productName = SchoorikenTests;
+			productReference = C2B064E61917611100BC2AA3 /* SchoorikenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2B064C31917611100BC2AA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Schooriken;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ri;
+				TargetAttributes = {
+					C2B064CA1917611100BC2AA3 = {
+						DevelopmentTeam = M2WDQMD38A;
+					};
+					C2B064E51917611100BC2AA3 = {
+						TestTargetID = C2B064CA1917611100BC2AA3;
+					};
+				};
+			};
+			buildConfigurationList = C2B064C61917611100BC2AA3 /* Build configuration list for PBXProject "Schooriken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2B064C21917611100BC2AA3;
+			productRefGroup = C2B064CC1917611100BC2AA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2B064CA1917611100BC2AA3 /* Schooriken */,
+				C2B064E51917611100BC2AA3 /* SchoorikenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2B064C91917611100BC2AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3162A6E6196AF476002B16F9 /* schooriken_icon29.png in Resources */,
+				3162A6ED196AF91C002B16F9 /* Images.xcassets in Resources */,
+				C2A07F141923C17400179FBE /* AnnouncementCell.xib in Resources */,
+				C25FF3EA193CD95C00FF638C /* glyphicons_refresh.png in Resources */,
+				3117378E1963069C00AE8923 /* glyphicons_others.png in Resources */,
+				C214AE2D1923BC4700A48403 /* refresh.png in Resources */,
+				C2A07F151923C17400179FBE /* AssignmentCell.xib in Resources */,
+				3162A6EA196AF476002B16F9 /* schooriken_icon58.png in Resources */,
+				3162A6E8196AF476002B16F9 /* schooriken_icon50.png in Resources */,
+				C2A07F171923C17400179FBE /* Main.storyboard in Resources */,
+				C214AE2B1923BC4700A48403 /* logo.png in Resources */,
+				C2A07F271923C17400179FBE /* UnjoinedEventCell.xib in Resources */,
+				C2E892C71939C4050086C5D0 /* glyphicons_book.png in Resources */,
+				C2E892C91939C49A0086C5D0 /* glyphicons_group.png in Resources */,
+				3162A6E9196AF476002B16F9 /* schooriken_icon57.png in Resources */,
+				C2A07F161923C17400179FBE /* JoinedEventCell.xib in Resources */,
+				3162A6EB196AF476002B16F9 /* schooriken_icon80.png in Resources */,
+				3162A6E7196AF476002B16F9 /* schooriken_icon40.png in Resources */,
+				C214AE2C1923BC4700A48403 /* plussign.png in Resources */,
+				C2E892C51939BB190086C5D0 /* glyphicons_soccer_ball.png in Resources */,
+				C25FF3E9193CD95C00FF638C /* glyphicons_plus.png in Resources */,
+				C25FF3E6193CD3A100FF638C /* glyphicons_logout.png in Resources */,
+				C214AE2A1923BC4700A48403 /* loginscreen.png in Resources */,
+				3117378C1963052C00AE8923 /* glyphicons_049_star.png in Resources */,
+				3162A6EC196AF476002B16F9 /* schooriken_icon100.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B064E41917611100BC2AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B064F21917611100BC2AA3 /* InfoPlist.strings in Resources */,
+				3128A0471969C20F00D3AA5D /* schooriken_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2B064C71917611100BC2AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A07F1A1923C17400179FBE /* SchoorikenAnnouncementCell.m in Sources */,
+				C2A07F181923C17400179FBE /* SchoorikenAddGroupTableController.m in Sources */,
+				313DFD2D195D33500074D136 /* SchoorikenCompleteButton.m in Sources */,
+				310804071959CA8700158315 /* NSString+MD5.m in Sources */,
+				C2A07F1F1923C17400179FBE /* SchoorikenDashboardViewController.m in Sources */,
+				C2A07F261923C17400179FBE /* SchoorikenUser.m in Sources */,
+				C2A07F1D1923C17400179FBE /* SchoorikenDashboardNavigationItem.m in Sources */,
+				C2A07F221923C17400179FBE /* SchoorikenLoginPasswordField.m in Sources */,
+				C2A07F241923C17400179FBE /* SchoorikenLoginViewController.m in Sources */,
+				C2A07F201923C17400179FBE /* SchoorikenJoinButton.m in Sources */,
+				C2A07F191923C17400179FBE /* SchoorikenAddGroupViewController.m in Sources */,
+				C2A07F1E1923C17400179FBE /* SchoorikenDashboardTableView.m in Sources */,
+				C2A07F2D1923C29900179FBE /* main.m in Sources */,
+				C2A07F1C1923C17400179FBE /* SchoorikenAssignmentCell.m in Sources */,
+				C2A07F211923C17400179FBE /* SchoorikenJoinedEventCell.m in Sources */,
+				C2A07F1B1923C17400179FBE /* SchoorikenAppDelegate.m in Sources */,
+				C2A07F251923C17400179FBE /* SchoorikenUnjoinedEventCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B064E21917611100BC2AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B064F41917611100BC2AA3 /* SchoorikenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2B064EC1917611100BC2AA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2B064CA1917611100BC2AA3 /* Schooriken */;
+			targetProxy = C2B064EB1917611100BC2AA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2B064F01917611100BC2AA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2B064F11917611100BC2AA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2B064F51917611100BC2AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2B064F61917611100BC2AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2B064F81917611100BC2AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Schooriken/Schooriken-Prefix.pch";
+				INFOPLIST_FILE = "Schooriken/Schooriken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2B064F91917611100BC2AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Schooriken/Schooriken-Prefix.pch";
+				INFOPLIST_FILE = "Schooriken/Schooriken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2B064FB1917611100BC2AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Schooriken.app/Schooriken";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Schooriken/Schooriken-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SchoorikenTests/SchoorikenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C2B064FC1917611100BC2AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Schooriken.app/Schooriken";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Schooriken/Schooriken-Prefix.pch";
+				INFOPLIST_FILE = "SchoorikenTests/SchoorikenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2B064C61917611100BC2AA3 /* Build configuration list for PBXProject "Schooriken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B064F51917611100BC2AA3 /* Debug */,
+				C2B064F61917611100BC2AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B064F71917611100BC2AA3 /* Build configuration list for PBXNativeTarget "Schooriken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B064F81917611100BC2AA3 /* Debug */,
+				C2B064F91917611100BC2AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B064FA1917611100BC2AA3 /* Build configuration list for PBXNativeTarget "SchoorikenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B064FB1917611100BC2AA3 /* Debug */,
+				C2B064FC1917611100BC2AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2B064C31917611100BC2AA3 /* Project object */;
+}
